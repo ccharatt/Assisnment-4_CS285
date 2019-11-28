@@ -41,9 +41,9 @@
             ng-change="change(toCity,'returning')">
         </div>
         <div class="radio col-sm-4 order-1">
-          <label><input type="radio" name="directionOptRadio" value="ONE_WAY">One Way</label>
+          <label><input type="radio" name="directionOptRadio" value="ONE_WAY" checked>One Way</label>
           <br>
-          <label><input type="radio" name="directionOptRadio" value="ROUND_TRIPS" checked>Round Trip</label>
+          <label><input type="radio" name="directionOptRadio" value="ROUND_TRIPS">Round Trip</label>
         </div>
       </div><br>
 
@@ -83,7 +83,7 @@
         </div>
 
       </div><br>
-      <button class="btn btn-default" style="color:white; background-color: magenta;" id="searchButton"
+      <button class="btn btn-default" style="color:white; background-color: salmon;" id="searchButton"
         ng-click="submit(departing,returning,adults,cabin)"> Search</button>
     </form>
   </div>
